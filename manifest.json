@@ -1,0 +1,16 @@
+{
+    "name": "MiniShop",
+    "short_name": "MiniShop",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fef6f0",
+    "theme_color": "#fef6f0",
+    "icons": [
+      {
+        "src": "images/notebook.jpg",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ]
+  }
+  

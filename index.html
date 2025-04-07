@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MiniShop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#fef6f0" />
+</head>
+<body>
+  <header>
+    <h1>MiniShop Collectives</h1>
+    <a href="cart.html" id="cart">🛒 <span id="cart-count">0</span></a>
+  </header>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="images/notebook.png" alt="Notebook">
+      <h3>Floral Notebook</h3>
+      <p>₹199</p>
+      <button onclick="addToCart('Floral Notebook', 199)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bottles.png" alt="Bottles">
+      <h3>Pastel Water Bottles</h3>
+      <p>₹349</p>
+      <button onclick="addToCart('Pastel Water Bottles', 349)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/pens.png" alt="Pens">
+      <h3>Vintage Pens Set</h3>
+      <p>₹149</p>
+      <button onclick="addToCart('Vintage Pens Set', 149)">Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/tiffin_box.png" alt="Tiffin Box">
+      <h3>Tiffin Box</h3>
+      <p>₹499</p>
+      <button onclick="addToCart('Tiffin Box', 499)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  <!-- <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log("Service Worker Registered"));
+    }
+  </script> -->
+
+
+</body>
+</html>
